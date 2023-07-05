@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    backend_pool:
+      hosts:
+        vmss_group:
+          ansible_host: 10.0.0.4a
+          ansible_user: adminuser
+          ansible_password: Newuser@12345
